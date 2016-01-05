@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+msdtc:
+  security:
+    network_access:
+      enabled: True
+      admin_enabled: True
+      client_enabled: True
+      inbound_enabled: True
+      outbound_enabled: True
+      authentication: 'Incoming'
+    transactions:
+      lu_enabled: False
+      xa_enabled: False

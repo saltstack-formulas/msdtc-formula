@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+registry:
+  True: 1
+  False: 0
