@@ -9,6 +9,7 @@
   key:values here that differ from whats in defaults.yml
 ##}
 {% set osrelease_map = salt['grains.filter_by']({
+    '2012ServerR2': {},
     '2012Server': {},
     '2008ServerR2': {},
   }
